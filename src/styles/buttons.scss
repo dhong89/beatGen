@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+.frame {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 150px;
+	height: 55px;
+	margin-top: -100px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background: rgb(255, 106, 21);
+	color: white;
+	font-family: Raleway, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    margin-right: 230px;
+    margin-top: 20px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	cursor: pointer;
+
+	svg {
+		height: 55px;
+		width: 150px;
+		fill: none;
+		stroke-width: 5;
+
+		.o1 {
+			stroke: rgba(rgb(255, 106, 21), 0.7);
+			fill: rgb(255, 106, 21);
+			transition: all 1s ease-in-out;
+		}
+
+		.o2 {
+			stroke: white;
+			stroke-dasharray: 20 420;
+			stroke-dashoffset: 20;
+			transition: all 1s ease-in-out;
+		}
+	}
+
+	#start {
+		position: absolute;
+		margin: auto 0;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+	}
+
+	&:hover {
+		.o1{
+			fill: rgba(rgb(255, 106, 21), 0.3);
+		}
+		
+		.o2 {
+			stroke-dashoffset: -420;
+		}
+	}
+}

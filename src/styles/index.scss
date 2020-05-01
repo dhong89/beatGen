@@ -1,0 +1,65 @@
+@import 'buttons.scss';
+@import 'easter.scss';
+@import 'sequencer.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a { color: inherit; } 
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url("../images/music.jpg");
+  background-color: white;
+
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+   
+}
+
+header p {
+  font-size: 25px;
+}
+
+header{
+  text-align: center;
+}
+
+header .logo {
+  width: 180px;
+  height: 100px;
+  clear: both;
+
+}
+
+.external-links {
+  position: absolute;
+  left: 1550px; 
+  top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
