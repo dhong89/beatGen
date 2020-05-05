@@ -41,67 +41,17 @@
 	color: #99a1a7;
 }
 
-.image-container-1{
+.image-container{
 	display: inline-flex;
-	padding-left: 35px;
-
+	align-items: center;
 }
 
-.image-container-1 img{
+.image-container img{
 	height: 23px;
-	margin: 23px 10px 0 60vh;
-}
-
-.image-container-2{
-	display: inline-flex;
-	padding-left: 35px;
-}
-
-.image-container-2 img{
-	height: 23px;
-	margin: 23px 10px 0 60vh;
 }
 
 
-.image-container-3{
-	display: inline-flex;
-	padding-left: 35px;
-}
-
-.image-container-3 img{
-	height: 23px;
-	margin: 23px 10px 0 60vh;
-}
-
-
-.image-container-4{
-	display: inline-flex;
-	padding-left: 35px;
-}
-
-.image-container-4 img{
-	height: 23px;
-	margin: 23px 10px 0 60vh;
-}
-
-
-.image-container-5{
-	display: inline-flex;
-	padding-left: 35px;
-}
-
-.image-container-5 img{
-	height: 23px;
-	margin: 23px 10px 0 60vh;
-}
-
-
-.image-container-6{
-	display: inline-flex;
-	padding-left: 35px;
-}
-
-.image-container-6 img{
-	height: 23px;
-	margin: 23px 10px 0 60vh;
+.checkbox-container{
+	width: 725px;
+	margin: auto;
 }
