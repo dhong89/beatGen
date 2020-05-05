@@ -10,6 +10,10 @@ button, input[type="submit"], input[type="reset"] {
 	outline: inherit;
 }
 
+.button-container{
+	margin: auto;
+}
+
 
 .frame {
 	position: relative;
@@ -32,6 +36,7 @@ button, input[type="submit"], input[type="reset"] {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .button-2 {
