@@ -14,6 +14,11 @@ button, input[type="submit"], input[type="reset"] {
 	margin: auto;
 }
 
+input[type="submit"] {
+	
+	font-size: 25px;
+}
+
 
 .frame {
 	position: relative;
@@ -36,7 +41,6 @@ button, input[type="submit"], input[type="reset"] {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .button-2 {
@@ -83,3 +87,34 @@ button, input[type="submit"], input[type="reset"] {
 		}
 	}
 }
+
+.favorites-container {
+    margin-top: 4vh;
+    padding: 3vw;
+    font-size: 3.3vw;
+    height: 57vw;
+    border-radius: 3vw;
+  }
+
+.favorites-container h3 {
+    text-align: center;
+    font-size: 4vw;
+  }
+
+  #fav-info-i {
+    display: none;
+  }
+
+  .favorites {
+    height: 43vw;
+  }
+
+  .fav {
+    padding: 1.5vw;
+    border-radius: 1.8vw;
+    margin-bottom: 1.2vw;
+  }
+
+  .fav button i {
+    font-size: 3.5vw;
+  }
