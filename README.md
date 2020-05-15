@@ -14,7 +14,10 @@ Users will be able to:
 
 
 ## Wireframe
-https://wireframe.cc/AUFrGu
+
+<p align="center">
+   <img src='https://user-images.githubusercontent.com/56278993/82092801-ebfb6180-96c7-11ea-8364-69cbc5b1d3e2.png' width='300'/>
+</p>
 
 ## Timeline
 - 4.27 - Research Tone and Web Audio and create general outline of the pads and sequencer.
