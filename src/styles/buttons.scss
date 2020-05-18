@@ -89,4 +89,37 @@ input[type="submit"] {
 }
 
 
+.dropdown-content{
+	// padding-left: 5%;
+	display: block;
+	padding: 1vw;
+  	border-radius: 1vw;
+  	right: 1vw;
+  	top: 4vw;
+  	font-size: 1vw;
+  	width: 12%;
+	z-index: 1;
+	background-color:rgb(255, 106, 21);
+	box-sizing: border-box;
+	text-align: center;
+	color: whitesmoke;
+}
+
+.hidden{
+	display:none;
+	position: absolute;
+
+}
+
+.dropdown-content:hover + .hidden{
+	display: block;
+}
+
+.hidden  li {
+  margin-left: 10%;
+  margin-top: 5%;
+  list-style-type: disc;
+}
+
+
 
