@@ -90,7 +90,6 @@ input[type="submit"] {
 
 
 .dropdown-content{
-	// padding-left: 5%;
 	display: block;
 	padding: 1vw;
   	border-radius: 1vw;
@@ -103,12 +102,19 @@ input[type="submit"] {
 	box-sizing: border-box;
 	text-align: center;
 	color: whitesmoke;
+	margin-left: 2vw;
 }
 
 .hidden{
 	display:none;
 	position: absolute;
-
+	background-color:rgb(255, 106, 21);
+	color: whitesmoke;
+	height: 190px;
+	margin-top: 1vw;
+	margin-left: 3vw;
+	border-radius: 1vw;
+	z-index: 1;
 }
 
 .dropdown-content:hover + .hidden{
